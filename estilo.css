@@ -125,7 +125,8 @@ h2 {
 }
 
 form {
-  margin-top: 50px;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
 }
 
 label {
