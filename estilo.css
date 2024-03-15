@@ -166,6 +166,7 @@ button:hover {
   }
 
   #form-contato {
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
-}
