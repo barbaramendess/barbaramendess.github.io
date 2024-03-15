@@ -1,159 +1,160 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .container {
-  position: absolute;
-  width: 80%;
-  height: 10%;
-  top: 30%;
-  left: 8%;
-  transform: translateY(-50%);
-  margin: 0;
-  font-size: 18px;
-  line-height: 1.5;
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2vw;
+    line-height: 1.5;
 }
 
 .header {
-  height: 100vh;
-  width: 100%;
-  background-color: #7c48c3;
-  background-size: cover;
-  background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #7c48c3;
+    background-size: contain;
+    background-position: center;
 }
 
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 25px;
-  padding-left: 8%;
-  padding-right: 8%;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2vw; 
+    padding-left: 5vw; 
+    padding-right: 5vw; 
+  }
 
 .imagem {
-  position: absolute;
-  width: 190px;
-  transform: translateY(-150%);
+    position: absolute;
+    width: 14vw;
+    transform: translateY(-150%);
 }
+
 .logo {
-  color: #ffffff;
-  font-size: 35px;
-  letter-spacing: 1px;
-  cursor: pointer;
+    color: #ffffff;
+    font-size: 3.5vw;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
+
 nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 5px 25px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 1vw 2vw;
 }
 
 nav ul li a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-weight: bolder;
-  text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
 }
 
 nav ul li a:hover {
-  color: #daa28e;
-  transition: 0.3s;
+    color: #daa28e;
+    transition: 0.3s;
 }
 
 .content {
-  position: absolute;
-  top: 45%;
-  left: 20%;
-  transform: translateY(-40%);
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translateY(-40%);
 }
 
 #intro {
-  top: 50%;
-  left: 30%;
+    top: 50%;
+    left: 30%;
 }
 
 #linkport {
-  color: #53504f;
+    color: #53504f;
 }
 
 #linkport:hover {
-  color: #6200ff;
+    color: #6200ff;
 }
 
 span {
-  color: #daa28e;
+    color: #daa28e;
 }
 
 h1 {
-  color: rgb(255, 255, 255);
-  font-size: 75px;
-  margin: 15px 0px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 75px;
+    margin: 15px 0px 10px;
 }
 
 h4 {
-  color: white;
-  font-size: 20px;
-  margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 
 h3 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 #titulos {
-  color: #795aa8;
-  font-style: italic;
+    color: #795aa8;
+    font-style: italic;
 }
 
 section {
-  padding: 30px;
-  margin-top: 15px;
-  background-color: #f5b485;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(139, 119, 119, 0.1);
-  transition: transform 0.3s ease-in-out;
+    padding: 30px;
+    margin-top: 15px;
+    background-color: #f5b485;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(139, 119, 119, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 h2 {
-  color: #fff;
+    color: #fff;
 }
 
 form {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 label {
-  display: inline-flexbox;
-  margin-bottom: 30px;
-  color: #fff;
+    display: inline-flexbox;
+    margin-bottom: 30px;
+    color: #fff;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  border: 1px solid #ffffff;
-  background-color: #a295a2;
-  color: #000000;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: #a295a2;
+    color: #000000;
 }
 
 button {
-  background-color: #91879b;
-  color: #fff;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+    background-color: #91879b;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
 button:hover {
-  background-color: #e4865d;
+    background-color: #e4865d;
 }
