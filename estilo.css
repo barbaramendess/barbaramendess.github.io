@@ -1,3 +1,4 @@
+/* Define o modelo de caixa e a fonte para todos os elementos */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,6 +6,7 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+/* Estilo do container principal */
 .container {
   position: absolute;
   width: 80%;
@@ -17,6 +19,7 @@
   line-height: 1.5;
 }
 
+/* Estilo do cabeçalho principal */
 .header {
   height: 100vh;
   width: 100%;
@@ -25,34 +28,36 @@
   background-position: center;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 25px;
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
+/* Estilo da imagem */
 .imagem {
   position: absolute;
   width: 190px;
   transform: translateY(-150%);
 }
 
+/* Estilo da logo */
 .logo {
   color: #ffffff;
   font-size: 35px;
   letter-spacing: 1px;
-  cursor: pointer;
 }
 
+/* Estilo para a navegação */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 8%;
+}
+
+/* Estilo para itens da navegação */
 nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 5px 25px;
 }
 
+/* Estilo para links da navegação */
 nav ul li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -60,11 +65,13 @@ nav ul li a {
   text-transform: capitalize;
 }
 
+/* Estilo para itens da navegação ao passar o mouse */
 nav ul li a:hover {
   color: #daa28e;
   transition: 0.3s;
 }
 
+/* Estilo do conteudo */
 .content {
   position: absolute;
   top: 45%;
@@ -72,29 +79,35 @@ nav ul li a:hover {
   transform: translateY(-40%);
 }
 
+/* Estilo da introdução */
 #intro {
   top: 50%;
   left: 30%;
 }
 
-#linkport {
+/* Estilo dos itens do portfolio */
+.portfolio-item a {
   color: #53504f;
 }
 
-#linkport:hover {
+/* Estilo dos itens do portfolio ao passar o mouse */
+.portfolio-item a:hover {
   color: #6200ff;
 }
 
+/* Estilo dos itens destacados */
 span {
   color: #daa28e;
 }
 
+/* Estilo do título principal */
 h1 {
   color: rgb(255, 255, 255);
   font-size: 75px;
   margin: 15px 0px 10px;
 }
 
+/* Estilo dos subtitulos */
 h4 {
   color: white;
   font-size: 20px;
@@ -106,11 +119,13 @@ h3 {
   font-size: 20px;
 }
 
+/* Estilo do titulo secundário */
 #titulos {
   color: #795aa8;
   font-style: italic;
 }
 
+/* Estilo das seções */
 section {
   padding: 30px;
   margin-top: 15px;
@@ -120,21 +135,20 @@ section {
   transition: transform 0.3s ease-in-out;
 }
 
-h2 {
-  color: #fff;
-}
-
+/* Estilo do formulário */
 form {
   margin-top: 2vh;
   margin-bottom: 1vh;
 }
 
+/* Estilos dos campos de inserir dados */
 label {
   display: inline-flexbox;
   margin-bottom: 30px;
   color: #fff;
 }
 
+/* Estilos do campo de texto (textarea) */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -147,6 +161,7 @@ textarea {
   color: #000000;
 }
 
+/* Estilo do botão */
 button {
   background-color: #91879b;
   color: #fff;
@@ -157,22 +172,16 @@ button {
   transition: background-color 0.3s ease-in-out;
 }
 
+/* Estilo do botão ao passar o mouse */
 button:hover {
   background-color: #e4865d;
 }
 
+/* Estilo para como o site irá se parecer no celular */
 @media only screen and (max-width: 600px) {
+
+  /* A imagem não irá aparecer */
   .imagem {
     display: none;
   }
-
-  .section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-  }
-
 }
